@@ -9,7 +9,7 @@
 <body>
     <div class="heading">
         <h1><strong>Study Planner</strong></h1>
-        <img src="assets/ramadan_crescent_3-removebg-preview.png">
+        <button id="themeToggle" class="theme-toggle" onclick="toggleLight()">🌙</button>
     </div>
     <div class="study-planner">
         <div id="first-div">
@@ -25,13 +25,23 @@
         <h2>Add New Subject</h2>
         <form>
             <input type="text" id="first-input" placeholder="Subject Name"><br>
-            <input type="number" id="second-input" placeholder="Daily study (hours)"><br>
+            <input type="number" id="second-input" placeholder="Daily study (hours)" min="0" step="0.5"><br>
         </form>
         <button id="add-btn">Add Subject</button>
     </div>
     <div class="Subjects">
         <h2>My Subjects</h2>
         <div class="all-subjects"></div>
+        <div id="Subject">
+            <h3></h3>
+            <p>Goal:</p>
+            <p>Progress:</p>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+            <input type="number" placeholder="hours studied" id="log" min="0" step="0.5">
+            <button class="log-btn">Log Progress</button>          
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
