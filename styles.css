@@ -102,10 +102,11 @@ body{
 .Subjects h2{
     padding: 20px 0 20px 0;
 }
-#Subject{
+
+/* #Subject{
     /* display: none; */
-    visibility: hidden;
-}
+    /* visibility: hidden;
+} */ */
 /* Dark Mode Styles */
 .dark-mode {
     background-color: #1a1a1a;
@@ -134,10 +135,10 @@ body{
 }
 
 /* Initially hide the subject section */
-#Subject {
+/* #Subject {
     visibility: hidden;
     transition: visibility 0.3s ease-in-out;
-}
+} */
 
 /* Styling for added subjects */
 .subject-entry {
@@ -151,6 +152,4 @@ body{
     background-color: #333;
     color: white;
 }
-
-
 
