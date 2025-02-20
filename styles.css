@@ -102,12 +102,20 @@ body{
 .Subjects h2{
     padding: 20px 0 20px 0;
 }
+.subject-b button{
+    background-color: #6c63fe ;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 20%;
+    padding: 10px 30px 10px 0;
+    margin: 10px 30px 5px 20px ;
+}
 
-/* #Subject{
-    /* display: none; */
-    /* visibility: hidden;
-} */ */
-/* Dark Mode Styles */
+#subject{
+     display: none; 
+     visibility: hidden;
+}
+ /* Dark Mode Styles  */
 .dark-mode {
     background-color: #1a1a1a;
     color: white;
@@ -133,7 +141,6 @@ body{
     background-color: white;
     color: black;
 }
-
 /* Initially hide the subject section */
 /* #Subject {
     visibility: hidden;
